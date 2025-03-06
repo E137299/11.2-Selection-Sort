@@ -7,7 +7,7 @@ public class SelectionSortTest {
         int[] array = {64, 25, 12, 22, 11};
         int[] expected = {11, 12, 22, 25, 64};
         
-        SelectionSort.selectionSort(array);
+        Main.selectionSort(array);
         assertArrayEquals(expected, array);
     }
 }
